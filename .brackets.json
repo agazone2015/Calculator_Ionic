@@ -1,0 +1,9 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/chappie/myApp/platforms/ios/www/js/app.js",
+        "/Users/chappie/myApp/platforms/ios/www/plugins/cordova-plugin-device/www/device.js",
+        "/Users/chappie/myApp/platforms/ios/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+        "/Users/chappie/myApp/platforms/ios/www/plugins/cordova-plugin-statusbar/www/statusbar.js",
+        "/Users/chappie/myApp/platforms/ios/www/plugins/ionic-plugin-keyboard/www/ios/keyboard.js"
+    ]
+}
