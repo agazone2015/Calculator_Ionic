@@ -17,6 +17,7 @@
         "/Users/chappie/myApp/plugins/cordova-plugin-device/tests/tests.js",
         "/Users/chappie/myApp/plugins/cordova-plugin-device/www/device.js",
         "/Users/chappie/myApp/plugins/cordova-plugin-splashscreen/src/blackberry10/index.js",
-        "/Users/chappie/myApp/plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js"
+        "/Users/chappie/myApp/plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-splashscreen/src/tizen/SplashScreenProxy.js"
     ]
 }

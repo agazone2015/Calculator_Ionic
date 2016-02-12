@@ -13,56 +13,27 @@ angular.module("calculator", [])
 		};
 		$scope.btnClickedClear = function(btn) {
 			if (btn == 'C') {
-			     $scope.memory = null;
-			     $scope.displayValue = 0;
-			     $scope.result = 0;  
+			     $scope.result = '';  
 			}
 			
 		};
     
-		$scope.btnClickedSum = function(btn) {
-            if ( btn == '+') {
-                $scope.saveInMemory();
-			    $scope.result = '';
-            }	
-		};
-    
-		$scope.btnClickedSubtract = function(btn) {
-            if (btn == '-') {
-                $scope.saveInMemory();
-			    $scope.result = '';
-            }
-		};
-    
-		$scope.btnClickedMultiply = function(btn) {
-            if (btn == '*') {
-               $scope.saveInMemory();
-			   $scope.result = ''; 
-            }
-		};
-    
-		$scope.btnClickedDivide = function(btn) {
-            if (btn == '/') {
-                $scope.saveInMemory();
-			    $scope.result = '';
-            }
-		};
-    
 		$scope.btnClickedCalculate = function(btn) {
-			if ($scope.operation == "+"){
-				$scope.result = parseFloat($scope.memory) + parseFloat($scope.displayValue);
+			if ($scope.operation == '='){
+				$scope.result = eval($scope.result);
 			}
 			else if ($scope.operation == "-"){
-				$scope.result = parseFloat($scope.memory) - parseFloat($scope.displayValue);
+				$scope.result =  $scope.result - $scope.saveInMemory;
 			}
 			else if ($scope.operation == "*"){
-				$scope.result = parseFloat($scope.memory) * parseFloat($scope.displayValue);
+				$scope.result =  $scope.result * $scope.saveInMemory;
 			}
 			else if ($scope.operation == "/"){
-				$scope.result = parseFloat($scope.memory) / parseFloat($scope.displayValue);
+				$scope.result =  $scope.result / $scope.saveInMemory;
 			}
-
-			$scope.memory = $scope.result;
+            else{
+                $scope.result += btn;
+            }
 		};
 	}
 );
