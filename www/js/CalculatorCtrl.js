@@ -7,7 +7,6 @@ angular.module("calculator", [])
 		$scope.operation = '';
 
 		$scope.saveInMemory = function(btn) {
-                       alert('button clicked');
 			if (btn == '') {
 				$scope.saveInMemory = $scope.memory;
 			}
@@ -22,7 +21,6 @@ angular.module("calculator", [])
 		};
     
 		$scope.btnClickedSum = function(btn) {
-            alert('button clicked');
             if ( btn == '+') {
                 $scope.saveInMemory();
 			    $scope.result = '';
