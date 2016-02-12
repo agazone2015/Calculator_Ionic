@@ -4,6 +4,19 @@
         "/Users/chappie/myApp/platforms/ios/www/plugins/cordova-plugin-device/www/device.js",
         "/Users/chappie/myApp/platforms/ios/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js",
         "/Users/chappie/myApp/platforms/ios/www/plugins/cordova-plugin-statusbar/www/statusbar.js",
-        "/Users/chappie/myApp/platforms/ios/www/plugins/ionic-plugin-keyboard/www/ios/keyboard.js"
+        "/Users/chappie/myApp/platforms/ios/www/plugins/ionic-plugin-keyboard/www/ios/keyboard.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-console/tests/tests.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-console/www/console-via-logger.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-console/www/logger.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-device/src/blackberry10/index.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-device/src/browser/DeviceProxy.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-device/src/firefoxos/DeviceProxy.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-device/src/tizen/DeviceProxy.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-device/src/ubuntu/device.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-device/src/windows/DeviceProxy.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-device/tests/tests.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-device/www/device.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-splashscreen/src/blackberry10/index.js",
+        "/Users/chappie/myApp/plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js"
     ]
 }
