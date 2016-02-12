@@ -11,11 +11,11 @@ angular.module("calculator", [])
 				$scope.saveInMemory = $scope.memory;
 			}
 		};
+		
 		$scope.btnClickedClear = function(btn) {
 			if (btn == 'C') {
 			     $scope.result = '';  
 			}
-			
 		};
     
 		$scope.btnClickedCalculate = function(btn) {
@@ -31,9 +31,9 @@ angular.module("calculator", [])
 			else if ($scope.operation == "/"){
 				$scope.result =  $scope.result / $scope.saveInMemory;
 			}
-            else{
-                $scope.result += btn;
-            }
+      else{
+        $scope.result += btn;
+      }
 		};
 	}
 );
